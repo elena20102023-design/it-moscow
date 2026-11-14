@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ПочтоКит — первая рассылка</title>
+<style>
+:root{font:16px/1.5 system-ui,sans-serif;color:#202337;background:#f4f3fa;--accent:#5442ac;--muted:#555d74;--line:#dedbea}
+*{box-sizing:border-box}body{margin:0}header{background:#2e2856;color:#fff}header div,main{max-width:960px;margin:auto;padding:20px 24px}header div{display:flex;justify-content:space-between;gap:14px;align-items:center}header strong{font-size:22px}header span{color:#e0d8fb;font-size:14px}
+nav{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 20px}button{font:inherit;font-weight:650;cursor:pointer;background:#fff;color:var(--accent);border:1px solid var(--line);border-radius:9px;padding:9px 15px}button:hover{background:#eeeafc}button[aria-current=step],button.primary{background:var(--accent);color:white;border-color:var(--accent)}button:disabled{opacity:.55;cursor:not-allowed}button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid #8e7ce7;outline-offset:2px}
+section{background:#fff;border:1px solid var(--line);border-radius:20px;padding:clamp(18px,4vw,36px);margin-bottom:18px}h1{font-size:clamp(28px,5vw,39px);line-height:1.15;margin:0 0 10px}h2{margin:22px 0 8px;font-size:20px}p{margin:8px 0 16px;color:var(--muted)}label{display:block;font-weight:650;margin:15px 0 5px}input,textarea,select{font:inherit;color:inherit;background:#fbfaff;border:1px solid var(--line);border-radius:9px;padding:10px 12px;width:100%}textarea{resize:vertical}input[type=file]{padding:12px}small{color:var(--muted)}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.note{padding:13px 15px;background:#f2effb;border-radius:10px;white-space:pre-wrap;overflow-wrap:anywhere}.error{color:#8c2847}.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:12px}.metric{background:#e9f5f1;border-radius:12px;padding:12px 15px;color:#285d4c}.metric b{display:block;font-size:26px}.preview{margin:16px 0;padding:18px;background:#f8f7fc;border:1px solid var(--line);border-radius:12px;overflow-wrap:anywhere}.preview h2{margin:0 0 10px}.body-copy{white-space:pre-wrap}.history{padding-left:24px}.history li{margin:6px 0;overflow-wrap:anywhere}.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<header><div><strong>ПочтоКит</strong><span>Учебный сервис рассылок</span></div></header>
+<main>
+<nav aria-label="Этапы кампании">
+<button data-step="contacts" aria-controls="contacts">1. Контакты</button>
+<button data-step="draft" aria-controls="draft">2. Кампания</button>
+<button data-step="preview" aria-controls="preview">3. Предпросмотр</button>
+<button data-step="report" aria-controls="report">4. Отчёт</button>
+</nav>
+<p id="message" role="status" hidden></p>
+<section id="contacts" aria-labelledby="contacts-title">
+<h1 id="contacts-title">Импорт контактов</h1>
+<p>Загрузите CSV со столбцом email или вставьте адреса. Используйте тестовые контакты.</p>
+<label for="file">Файл CSV</label><input id="file" type="file" accept=".csv,text/csv">
+<label for="addresses">Адреса</label><textarea id="addresses" rows="4" placeholder="olga@example.com"></textarea>
+<div class="actions"><button id="example">Вставить тестовые данные</button><button id="import" class="primary">Проверить и сохранить</button></div>
+<p id="import-result" class="note" role="status" hidden></p>
+<h2>Получатели</h2><p id="contact-list" class="note"></p>
+<button class="primary" data-next="draft">Перейти к письму</button>
+</section>
+<section id="draft" hidden aria-labelledby="draft-title">
+<h1 id="draft-title">Новая кампания</h1><p id="draft-count"></p>
+<label for="template">Шаблон</label><select id="template"><option value="">Выберите шаблон</option><option value="sale">Акция для клиентов</option><option value="news">Новости компании</option></select>
+<label for="subject">Тема письма</label><input id="subject" maxlength="150" placeholder="Например, скидка 15% до воскресенья">
+<label for="copy">Текст письма</label><textarea id="copy" rows="7" maxlength="5000" placeholder="Здравствуйте!"></textarea>
+<p id="saved" role="status"></p>
+<button class="primary" data-next="preview">Предпросмотр</button>
+</section>
+<section id="preview" hidden aria-labelledby="preview-title">
+<h1 id="preview-title">Предпросмотр письма</h1>
+<p>Проверьте письмо и получателей перед имитацией отправки.</p>
+<details><summary id="preview-count"></summary><p id="preview-list" class="note"></p></details>
+<div class="preview"><h2 id="preview-subject"></h2><p id="preview-copy" class="body-copy"></p></div>
+<div class="actions"><button data-next="draft">Вернуться к письму</button><button id="send" class="primary">Смоделировать отправку</button></div>
+</section>
+<section id="report" hidden aria-labelledby="report-title">
+<h1 id="report-title">Отчёт кампании</h1><p>Демонстрационные показатели.</p>
+<div id="report-content"></div>
+<h2>История кампаний</h2><ul id="history" class="history"></ul>
+<button data-next="draft">Вернуться к черновику</button>
+</section>
+</main>
+<script>
+'use strict';
+const storageKey = 'pochtokit-v1';
+const emptyState = { contacts: [], subject: '', copy: '', campaigns: [] };
+const get = id => document.getElementById(id);
+let state;
+try { state = { ...emptyState, ...JSON.parse(localStorage.getItem(storageKey) || '{}') }; }
+catch { state = { ...emptyState }; }
+const templates = {
+  sale: ['Скидка 15% для наших клиентов', 'Здравствуйте!\n\nДо воскресенья действует скидка 15%. Введите код ВЕСНА15 при заказе.'],
+  news: ['Новости нашей компании', 'Здравствуйте!\n\nРассказываем, что нового появилось в этом месяце.']
+};
+let importMessage = '';
+let active = 'contacts';
+
+function persist() {
+  try { localStorage.setItem(storageKey, JSON.stringify(state)); return true; }
+  catch { return false; }
+}
+function status(text) {
+  get('message').textContent = text;
+  get('message').hidden = !text;
+}
+function recipients() {
+  const count = state.contacts.length;
+  return count === 1 ? '1 получатель' : count >= 2 && count <= 4 ? count + ' получателя' : count + ' получателей';
+}
+function validateDraft() {
+  if (!state.contacts.length) return 'Сначала добавьте хотя бы одного получателя.';
+  if (!state.subject.trim() || !state.copy.trim()) return 'Заполните тему и текст письма.';
+  return '';
+}
+function render() {
+  get('contact-list').textContent = state.contacts.join('\n') || 'Адресов пока нет.';
+  get('draft-count').textContent = recipients();
+  get('import-result').textContent = importMessage;
+  get('import-result').hidden = !importMessage;
+  get('preview-count').textContent = recipients();
+  get('preview-list').textContent = state.contacts.join('\n');
+  get('preview-subject').textContent = state.subject;
+  get('preview-copy').textContent = state.copy;
+  const latest = state.campaigns[0];
+  const content = get('report-content');
+  content.replaceChildren();
+  if (latest) {
+    const title = document.createElement('h2');
+    title.textContent = latest.subject;
+    const stats = document.createElement('div');
+    stats.className = 'stats';
+    for (const [label, value] of [['Доставлено', latest.delivered], ['Открыто', latest.opened], ['Клики', latest.clicked]]) {
+      const card = document.createElement('div');
+      const number = document.createElement('b');
+      card.className = 'metric';
+      number.textContent = value;
+      card.append(label, number);
+      stats.append(card);
+    }
+    content.append(title, stats);
+  } else content.textContent = 'После имитации отправки здесь появится отчёт.';
+  get('history').replaceChildren(...state.campaigns.map(campaign => {
+    const item = document.createElement('li');
+    item.textContent = campaign.subject + ' · ' + new Date(campaign.date).toLocaleString('ru-RU');
+    return item;
+  }));
+}
+function go(step) {
+  if (step === 'draft' && active === 'contacts' && !state.contacts.length) {
+    status('Сначала добавьте хотя бы одного получателя.');
+    return;
+  }
+  if (step === 'preview') {
+    const issue = validateDraft();
+    if (issue) { status(issue); return; }
+  }
+  active = step;
+  status('');
+  for (const button of document.querySelectorAll('[data-step]')) {
+    const selected = button.dataset.step === step;
+    get(button.dataset.step).hidden = !selected;
+    if (selected) button.setAttribute('aria-current', 'step');
+    else button.removeAttribute('aria-current');
+  }
+  render();
+}
+function parseCsv(text) {
+  const source = text.replace(/^\uFEFF/, '');
+  const header = source.split(/\r?\n/, 1)[0];
+  const delimiter = header.replace(/"[^"]*"/g, '').includes(';') ? ';' : ',';
+  const rows = [];
+  let row = [];
+  let field = '';
+  let quoted = false;
+  for (let i = 0; i < source.length; i++) {
+    const char = source[i];
+    if (char === '"') {
+      if (quoted && source[i + 1] === '"') { field += '"'; i++; }
+      else quoted = !quoted;
+    } else if (!quoted && char === delimiter) {
+      row.push(field.trim());
+      field = '';
+    } else if (!quoted && char === '\n') {
+      rows.push([...row, field.trim()]);
+      row = [];
+      field = '';
+    } else field += char;
+  }
+  if (quoted) throw new Error('В CSV есть незакрытая кавычка.');
+  if (row.length || field.trim()) rows.push([...row, field.trim()]);
+  const records = rows.filter(record => record.some(Boolean));
+  const index = records[0]?.findIndex(value => value.toLowerCase() === 'email') ?? -1;
+  if (index < 0) throw new Error('В первой строке CSV нужен столбец email.');
+  return records.slice(1).map(record => record[index] || '');
+}
+function importContacts(values) {
+  const contacts = new Set();
+  let duplicates = 0;
+  let invalid = 0;
+  for (const value of values) {
+    const email = value.trim().toLowerCase();
+    if (!/^[^\s@;,]+@[^\s@;,]+\.[^\s@;,]+$/.test(email)) invalid++;
+    else if (contacts.has(email)) duplicates++;
+    else contacts.add(email);
+  }
+  if (contacts.size) state.contacts = [...contacts];
+  importMessage = 'Принято: ' + contacts.size + ' · Дубли: ' + duplicates + ' · Ошибки: ' + invalid;
+  if (!contacts.size) importMessage += '\nДобавьте хотя бы один корректный адрес.';
+  else if (!persist()) importMessage += '\nБраузер не сохранил данные между запусками.';
+  render();
+}
+function saveDraft() {
+  state.subject = get('subject').value;
+  state.copy = get('copy').value;
+  get('saved').textContent = persist() ? 'Черновик сохранён в браузере.' : 'Черновик доступен в этой вкладке.';
+}
+document.querySelectorAll('[data-step], [data-next]').forEach(button => button.addEventListener('click', () => go(button.dataset.step || button.dataset.next)));
+get('file').addEventListener('change', async () => {
+  const file = get('file').files[0];
+  if (!file) return;
+  try { importContacts(parseCsv(await file.text())); }
+  catch (error) { importMessage = error.message; render(); }
+});
+get('example').onclick = () => { get('addresses').value = 'olga@example.com\nmaria@example.com\nivan@example.com\nolga@example.com\nwrong-address'; };
+get('import').onclick = () => importContacts(get('addresses').value.split(/[\s,;]+/).filter(Boolean));
+get('template').onchange = () => {
+  const template = templates[get('template').value];
+  if (!template) return;
+  if ((get('subject').value || get('copy').value) && !window.confirm('Заменить тему и текст выбранным шаблоном?')) { get('template').value = ''; return; }
+  [get('subject').value, get('copy').value] = template;
+  saveDraft();
+};
+get('subject').value = state.subject;
+get('copy').value = state.copy;
+get('subject').oninput = saveDraft;
+get('copy').oninput = saveDraft;
+get('send').onclick = () => {
+  const issue = validateDraft();
+  if (issue) { status(issue); return; }
+  const delivered = state.contacts.length;
+  const opened = Math.round(delivered * 0.67);
+  const clicked = Math.round(opened * 0.5);
+  state.campaigns.unshift({ subject: state.subject, delivered, opened, clicked, date: new Date().toISOString() });
+  const saved = persist();
+  go('report');
+  if (!saved) status('Отчёт доступен в этой вкладке. Браузер не сохранил его между запусками.');
+};
+go('contacts');
+</script>
+</body>
+</html>

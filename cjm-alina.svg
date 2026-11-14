@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1880" height="1120" viewBox="0 0 1880 1120"><title>Путь Алины до первой рассылки</title>
+<rect x="0" y="0" width="1880" height="1120" rx="0" fill="#F4F3FA"/>
+<text x="64" y="70.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#5442AC">ПОЧТОКИТ  /  CUSTOMER JOURNEY MAP</text>
+<text x="64" y="132.0" font-family="Inter, Arial, sans-serif" font-size="49" font-weight="700" fill="#202337">Путь Алины до первой рассылки</text>
+<text x="64" y="175.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="400" fill="#555D74">Алина — маркетолог малого бизнеса. Ей нужно отправить письмо клиентам и показать результат руководителю.</text>
+<rect x="64" y="211" width="1752" height="60" rx="12" fill="#EAE6FB"/>
+<text x="86" y="249.0" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="600" fill="#5442AC">Гипотеза клиентского пути  ·  От поиска сервиса до просмотра результатов первой кампании</text>
+<rect x="64" y="306" width="1752" height="88" rx="15" fill="#2E2856"/>
+<text x="86" y="360.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#D7CDF7">ЭТАПЫ ПУТИ</text>
+<text x="292" y="339.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#C8B8FD">01</text>
+<text x="292" y="370.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">Выбор сервиса</text>
+<text x="600" y="339.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#C8B8FD">02</text>
+<text x="600" y="370.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">Подготовка базы</text>
+<text x="908" y="339.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#C8B8FD">03</text>
+<text x="908" y="370.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">Создание письма</text>
+<text x="1216" y="339.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#C8B8FD">04</text>
+<text x="1216" y="370.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">Проверка и отправка</text>
+<text x="1524" y="339.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#C8B8FD">05</text>
+<text x="1524" y="370.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">Просмотр отчёта</text>
+<rect x="64" y="394" width="1752" height="105" rx="0" fill="#FFFFFF"/>
+<text x="86" y="431.0" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="#202337">Действие</text>
+<rect x="274" y="394" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="292" y="430" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Сравнивает сервисы</text>
+<text x="292" y="454" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">и ищет шаблоны.</text>
+<rect x="582" y="394" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="600" y="430" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Загружает список</text>
+<text x="600" y="454" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">контактов из CSV.</text>
+<rect x="890" y="394" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="908" y="430" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Выбирает шаблон,</text>
+<text x="908" y="454" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">пишет тему и текст.</text>
+<rect x="1198" y="394" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="1216" y="430" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Проверяет письмо</text>
+<text x="1216" y="454" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">и запускает рассылку.</text>
+<rect x="1506" y="394" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="1524" y="430" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Смотрит результаты</text>
+<text x="1524" y="454" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">и готовит сводку.</text>
+<rect x="64" y="498" width="1752" height="1" rx="0" fill="#E4E2EE"/>
+<rect x="64" y="499" width="1752" height="105" rx="0" fill="#F9F8FD"/>
+<text x="86" y="536.0" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="#202337">Точка контакта</text>
+<rect x="274" y="499" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="292" y="535" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Лендинг и примеры</text>
+<text x="292" y="559" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">писем</text>
+<rect x="582" y="499" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="600" y="535" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Экран импорта,</text>
+<text x="600" y="559" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">результат проверки</text>
+<rect x="890" y="499" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="908" y="535" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Редактор кампании,</text>
+<text x="908" y="559" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">библиотека шаблонов</text>
+<rect x="1198" y="499" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="1216" y="535" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Предпросмотр,</text>
+<text x="1216" y="559" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">экран подтверждения</text>
+<rect x="1506" y="499" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="1524" y="535" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Карточка кампании,</text>
+<text x="1524" y="559" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">отчёт</text>
+<rect x="64" y="603" width="1752" height="1" rx="0" fill="#E4E2EE"/>
+<rect x="64" y="604" width="1752" height="105" rx="0" fill="#FFFFFF"/>
+<text x="86" y="641.0" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="#202337">Эмоция</text>
+<rect x="274" y="604" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="292" y="640" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Интерес, сомнение</text>
+<rect x="582" y="604" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="600" y="640" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Неуверенность</text>
+<rect x="890" y="604" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="908" y="640" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Вовлечённость</text>
+<rect x="1198" y="604" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="1216" y="640" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Тревога перед запуском</text>
+<rect x="1506" y="604" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="1524" y="640" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Облегчение</text>
+<rect x="64" y="708" width="1752" height="1" rx="0" fill="#E4E2EE"/>
+<rect x="64" y="709" width="1752" height="105" rx="0" fill="#FAF4F7"/>
+<text x="86" y="746.0" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="#202337">Барьер</text>
+<rect x="274" y="709" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="292" y="745" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Сложно понять,</text>
+<text x="292" y="769" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">что есть в сервисе.</text>
+<rect x="582" y="709" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="600" y="745" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Дубли и ошибки</text>
+<text x="600" y="769" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">в адресах.</text>
+<rect x="890" y="709" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="908" y="745" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Первое письмо долго</text>
+<text x="908" y="769" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">собирать с нуля.</text>
+<rect x="1198" y="709" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="1216" y="745" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Боится отправить</text>
+<text x="1216" y="769" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">письмо с ошибкой.</text>
+<rect x="1506" y="709" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="1524" y="745" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Неясно, как оценить</text>
+<text x="1524" y="769" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">результат кампании.</text>
+<rect x="64" y="813" width="1752" height="1" rx="0" fill="#E4E2EE"/>
+<rect x="64" y="814" width="1752" height="105" rx="0" fill="#E9F5F1"/>
+<text x="86" y="851.0" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="#202337">Улучшение</text>
+<rect x="274" y="814" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="292" y="850" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Показать примеры</text>
+<text x="292" y="874" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">шаблонов и шаги</text>
+<text x="292" y="898" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">до первой отправки.</text>
+<rect x="582" y="814" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="600" y="850" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Подсветить ошибки,</text>
+<text x="600" y="874" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">убрать дубли и показать</text>
+<text x="600" y="898" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">число принятых адресов.</text>
+<rect x="890" y="814" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="908" y="850" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Дать шаблон для акции</text>
+<text x="908" y="874" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">и сохранить черновик</text>
+<text x="908" y="898" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">автоматически.</text>
+<rect x="1198" y="814" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="1216" y="850" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Показать получателей</text>
+<text x="1216" y="874" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">и письмо целиком</text>
+<text x="1216" y="898" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">перед подтверждением.</text>
+<rect x="1506" y="814" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="1524" y="850" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Показать доставку,</text>
+<text x="1524" y="874" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">открытия и клики</text>
+<text x="1524" y="898" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">в одной сводке.</text>
+<rect x="64" y="918" width="1752" height="1" rx="0" fill="#E4E2EE"/>
+<rect x="64" y="919" width="1752" height="105" rx="0" fill="#F9F8FD"/>
+<text x="86" y="956.0" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="#202337">Метрика</text>
+<rect x="274" y="919" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="292" y="955" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Доля начавших</text>
+<text x="292" y="979" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">создавать кампанию</text>
+<rect x="582" y="919" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="600" y="955" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Доля завершённых</text>
+<text x="600" y="979" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">импортов</text>
+<rect x="890" y="919" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="908" y="955" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Время до готового</text>
+<text x="908" y="979" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">черновика</text>
+<rect x="1198" y="919" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="1216" y="955" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Доля первых</text>
+<text x="1216" y="979" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">подтверждённых отправок</text>
+<rect x="1506" y="919" width="1" height="105" rx="0" fill="#E4E2EE"/>
+<text x="1524" y="955" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">Доля просмотренных</text>
+<text x="1524" y="979" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" fill="#555D74">отчётов</text>
+<rect x="64" y="1023" width="1752" height="1" rx="0" fill="#E4E2EE"/>
+<text x="64" y="1072.0" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="600" fill="#5442AC">Первый приоритет — сократить путь до запуска: готовый шаблон, проверка адресов и понятный предпросмотр.</text>
+</svg>

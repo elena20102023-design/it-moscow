@@ -4,7 +4,7 @@
 
 ## Запуск
 
-Откройте `front/index.html` в браузере. Для просмотра набора компонентов откройте `front/UI-kit.html`. Установка зависимостей не требуется.
+Откройте `front/index.html` в браузере. Для просмотра набора компонентов откройте [`UI-kit.html`](../UI-kit.html) из корня репозитория. Установка зависимостей не требуется.
 
 ```text
 it-moscow/
@@ -20,12 +20,15 @@ it-moscow/
 │   └── research.svg
 └── front/
     ├── index.html
-    ├── UI-kit.html
     ├── styles/main.css
     └── scripts/main.js
 ```
 
 В `analysis/` находятся гипотезы о целевой аудитории и её пути. В `design/` лежат векторные макеты, которые можно импортировать в Figma. Раздел поступления ведёт на официальные ресурсы.
+
+## Макеты в Figma
+
+[Десктоп, мобильная версия, UI-kit и CJM](https://www.figma.com/design/ZOkgW3BEZuXR6REsNSwKcm?node-id=50-2)
 
 ## Источники
 

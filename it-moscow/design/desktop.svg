@@ -1,87 +1,89 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="2060"><rect width="100%" height="100%" fill="#0D1020"/>
-<rect x="0" y="0" width="1440" height="74" rx="0" fill="#0D1020" stroke="#303652"/>
-<text x="110" y="46" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700">IT.МОСКВА</text>
-<text x="552" y="42" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400">Направления      Поступление      Контакты</text>
-<rect x="1134" y="14" width="196" height="46" rx="9" fill="#C9FF51" stroke="none"/>
-<text x="1148" y="41" fill="#0D1020" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Абитуриентам ↗</text>
-<text x="110" y="184" fill="#C9FF51" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">КОЛЛЕДЖ ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ</text>
-<text x="104" y="305" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="100" font-weight="700">Твой старт</text>
-<text x="104" y="408" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="100" font-weight="700">в IT.</text>
-<text x="110" y="463" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="400">Выбери специальность, узнай, чему учат в колледже,</text>
-<text x="110" y="493" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="400">и пройди путь до подачи документов.</text>
-<rect x="110" y="526" width="238" height="46" rx="9" fill="#C9FF51" stroke="none"/>
-<text x="124" y="553" fill="#0D1020" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Смотреть направления ↓</text>
-<rect x="363" y="526" width="150" height="46" rx="9" fill="#171B30" stroke="#303652"/>
-<text x="377" y="553" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Как поступить</text>
-<rect x="895" y="135" width="407" height="407" rx="21" fill="#20204A" stroke="#424677"/>
-<rect x="998.785" y="238.785" width="199.43" height="199.43" rx="19" fill="none" stroke="#6461A5" transform="rotate(45 1098.5 338.5)"/>
-<rect x="1019.3385" y="259.3385" width="158.323" height="158.323" rx="19" fill="none" stroke="#8C87DC" transform="rotate(45 1098.5 338.5)"/>
-<rect x="1039.892" y="279.892" width="117.216" height="117.216" rx="19" fill="none" stroke="#C9FF51" transform="rotate(45 1098.5 338.5)"/>
-<text x="1013.03" y="379.2" fill="#C9FF51" font-family="Inter, Arial, sans-serif" font-size="105.82000000000001" font-weight="700">&lt;/&gt;</text>
-<rect x="0" y="624" width="1440" height="1" rx="0" fill="#303652" stroke="none"/>
-<text x="110" y="699" fill="#C9FF51" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">ОБУЧЕНИЕ</text>
-<text x="110" y="759" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="700">Направления</text>
-<text x="110" y="794" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400">Три примера специальностей колледжа. Полный перечень доступен на официальном сайте.</text>
-<rect x="110" y="821" width="167" height="46" rx="9" fill="#C9FF51" stroke="none"/>
-<text x="124" y="848" fill="#0D1020" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Все направления</text>
-<rect x="286" y="821" width="175" height="46" rx="9" fill="#171B30" stroke="#303652"/>
-<text x="300" y="848" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Программирование</text>
-<rect x="470" y="821" width="153" height="46" rx="9" fill="#171B30" stroke="#303652"/>
-<text x="484" y="848" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Инфраструктура</text>
-<rect x="632" y="821" width="227" height="46" rx="9" fill="#171B30" stroke="#303652"/>
-<text x="646" y="848" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Искусственный интеллект</text>
-<rect x="110" y="894" width="392" height="220" rx="15" fill="#171B30" stroke="#303652"/>
-<text x="128" y="925" fill="#C9FF51" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">Код · 09.02.07</text>
-<text x="128" y="960" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Информационные системы</text>
-<text x="128" y="984" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">и программирование</text>
-<text x="128" y="1034" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400">Разработка приложений,</text>
-<text x="128" y="1055" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400">базы данных и тестирование.</text>
-<text x="128" y="1093" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Подробнее на сайте колледжа ↗</text>
-<rect x="524" y="894" width="392" height="220" rx="15" fill="#171B30" stroke="#303652"/>
-<text x="542" y="925" fill="#C9FF51" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">Системы · 09.02.01</text>
-<text x="542" y="960" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Компьютерные системы</text>
-<text x="542" y="984" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">и комплексы</text>
-<text x="542" y="1034" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400">Устройство компьютеров и настройка</text>
-<text x="542" y="1055" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400">вычислительных систем.</text>
-<text x="542" y="1093" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Подробнее на сайте колледжа ↗</text>
-<rect x="938" y="894" width="392" height="220" rx="15" fill="#171B30" stroke="#303652"/>
-<text x="956" y="925" fill="#C9FF51" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">ИИ · 09.02.13</text>
-<text x="956" y="960" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Интеграция решений</text>
-<text x="956" y="984" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">с применением технологий</text>
-<text x="956" y="1008" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">искусственного интеллекта</text>
-<text x="956" y="1034" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400">Работа с данными и применение ИИ</text>
-<text x="956" y="1055" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400">в прикладных задачах.</text>
-<text x="956" y="1093" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Подробнее на сайте колледжа ↗</text>
-<rect x="0" y="1180" width="1440" height="330" rx="0" fill="#14172D" stroke="none"/>
-<text x="110" y="1243" fill="#C9FF51" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">АБИТУРИЕНТАМ</text>
-<text x="110" y="1305" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="700">Как поступить</text>
-<text x="110" y="1346" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400">Уточняй правила текущего набора</text>
-<rect x="110" y="1381" width="223" height="46" rx="9" fill="#C9FF51" stroke="none"/>
-<text x="124" y="1408" fill="#0D1020" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Официальный раздел ↗</text>
-<text x="705" y="1247" fill="#C9FF51" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">01</text>
-<text x="743" y="1248" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Выбери направление</text>
-<text x="743" y="1271" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400">Сравни специальности и сохрани подходящие варианты.</text>
-<rect x="705" y="1297" width="595" height="1" rx="0" fill="#303652" stroke="none"/>
-<text x="705" y="1329" fill="#C9FF51" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">02</text>
-<text x="743" y="1330" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Проверь условия приёма</text>
-<text x="743" y="1353" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400">Уточни сроки и список документов на сайте колледжа.</text>
-<rect x="705" y="1379" width="595" height="1" rx="0" fill="#303652" stroke="none"/>
-<text x="705" y="1411" fill="#C9FF51" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">03</text>
-<text x="743" y="1412" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Подай заявление</text>
-<text x="743" y="1435" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400">Перейди к официальным инструкциям и следи за статусом заявления.</text>
-<rect x="705" y="1461" width="595" height="1" rx="0" fill="#303652" stroke="none"/>
-<text x="110" y="1574" fill="#C9FF51" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">ВОПРОСЫ</text>
-<text x="110" y="1634" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="47" font-weight="700">Что уточнить перед подачей</text>
-<text x="110" y="1680" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">+   Где посмотреть список документов?</text>
-<rect x="110" y="1696" width="820" height="1" rx="0" fill="#303652" stroke="none"/>
-<text x="110" y="1732" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">+   Где узнать сроки и условия по специальности?</text>
-<rect x="110" y="1748" width="820" height="1" rx="0" fill="#303652" stroke="none"/>
-<text x="110" y="1784" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">+   Куда обратиться с вопросом?</text>
-<rect x="110" y="1800" width="820" height="1" rx="0" fill="#303652" stroke="none"/>
-<rect x="0" y="1850" width="1440" height="210" rx="0" fill="#171B30" stroke="none"/>
-<text x="110" y="1924" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">IT.МОСКВА</text>
-<text x="110" y="1959" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Учебный проект. Актуальная информация — на сайте колледжа.</text>
-<text x="827" y="1921" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Приёмная комиссия</text>
-<text x="827" y="1958" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400">+7 (499) 612-14-98</text>
-<text x="827" y="1989" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400">priem@itmoscow.pro</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1550" viewBox="0 0 1440 1550">
+<rect x="0" y="0" width="1440" height="1550" rx="0" fill="#F6F6EF" stroke="none"/>
+<text x="120" y="48" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700">IT.МОСКВА</text>
+<text x="562" y="47" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="400">Каталог      Правила обмена</text>
+<rect x="1170" y="19" width="150" height="40" rx="8" fill="#D9FF68" stroke="#14182B"/>
+<text x="1182" y="44" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">＋ Объявление</text>
+<rect x="0" y="76" width="1440" height="1" rx="0" fill="#D8DBD1" stroke="none"/>
+<text x="120" y="153" fill="#4A36A3" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">СТУДЕНЧЕСКИЙ ОБМЕН</text>
+<text x="112" y="253" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="92" font-weight="700">Стол заказов</text>
+<text x="112" y="340" fill="#4A36A3" font-family="Inter,Arial,sans-serif" font-size="92" font-weight="700">проектов.</text>
+<text x="120" y="389" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="400">Ищи учебники, делись конспектами и обменивайся</text>
+<text x="120" y="413" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="400">материалами для проектов внутри колледжа IT.МОСКВА.</text>
+<rect x="120" y="454" width="185" height="40" rx="8" fill="#D9FF68" stroke="#14182B"/>
+<text x="132" y="479" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Найти материалы ↓</text>
+<rect x="319" y="454" width="150" height="40" rx="8" fill="#FFFFFF" stroke="#14182B"/>
+<text x="331" y="479" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Оставить запрос</text>
+<rect x="886" y="137" width="434" height="355" rx="20" fill="#E8E4FF" stroke="none"/>
+<g transform="rotate(-14 1058.0 314.5)">
+<rect x="984.8800000000001" y="197.25" width="156.23999999999998" height="248.49999999999997" rx="10" fill="#14182B" stroke="none"/>
+<rect x="979.8800000000001" y="190.25" width="156.23999999999998" height="248.49999999999997" rx="10" fill="#F4A999" stroke="#14182B"/>
+</g>
+<g transform="rotate(14 1148.0 314.5)">
+<rect x="1074.88" y="197.25" width="156.23999999999998" height="248.49999999999997" rx="10" fill="#14182B" stroke="none"/>
+<rect x="1069.88" y="190.25" width="156.23999999999998" height="248.49999999999997" rx="10" fill="#FFFFFF" stroke="#14182B"/>
+</g>
+<g transform="rotate(-3 1103.0 314.5)">
+<rect x="1029.88" y="197.25" width="156.23999999999998" height="248.49999999999997" rx="10" fill="#14182B" stroke="none"/>
+<rect x="1024.88" y="190.25" width="156.23999999999998" height="248.49999999999997" rx="10" fill="#D9FF68" stroke="#14182B"/>
+</g>
+<text x="1055.26" y="346.45" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="99" font-weight="700">↔</text>
+<text x="1076.96" y="403.25" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700">IT.МОСКВА</text>
+<rect x="120" y="550" width="1200" height="1" rx="0" fill="#D8DBD1" stroke="none"/>
+<text x="120" y="596" fill="#4A36A3" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">ДОСКА ОБЪЯВЛЕНИЙ</text>
+<text x="120" y="652" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="48" font-weight="700">Учебные материалы</text>
+<rect x="1170" y="610" width="150" height="40" rx="8" fill="#FFFFFF" stroke="#14182B"/>
+<text x="1182" y="635" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">＋ Добавить</text>
+<text x="120" y="684" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="400">Учебное демо. Объявления и отклики хранятся на этом устройстве.</text>
+<rect x="120" y="705" width="754" height="43" rx="8" fill="#FFFFFF" stroke="#9EA498"/>
+<text x="132" y="732" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Название или предмет</text>
+<rect x="890" y="705" width="430" height="43" rx="8" fill="#FFFFFF" stroke="#9EA498"/>
+<text x="902" y="732" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Все категории</text>
+<text x="120" y="784" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700">Все     Предложения     Запросы</text>
+<rect x="120" y="814" width="388" height="214" rx="14" fill="#FFFFFF" stroke="#D8DBD1"/>
+<rect x="135" y="828" width="32" height="32" rx="6" fill="#D9FF68" stroke="none"/>
+<text x="144" y="851" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">◫</text>
+<text x="135" y="885" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">Грокаем алгоритмы</text>
+<text x="135" y="907" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400">Алгоритмы</text>
+<text x="135" y="928" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Бумажная книга с примерами на Python. Могу</text>
+<text x="135" y="945" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">передать после занятий.</text>
+<text x="135" y="980" fill="#4A36A3" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700">Предложение · Книги</text>
+<text x="135" y="1007" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Подробнее →</text>
+<rect x="526" y="814" width="388" height="214" rx="14" fill="#FFFFFF" stroke="#D8DBD1"/>
+<rect x="541" y="828" width="32" height="32" rx="6" fill="#E8E4FF" stroke="none"/>
+<text x="550" y="851" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">≡</text>
+<text x="541" y="885" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">Конспект по сетям</text>
+<text x="541" y="907" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400">Компьютерные сети</text>
+<text x="541" y="928" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Ищу материалы по адресации и подсетям для</text>
+<text x="541" y="945" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">подготовки к зачёту.</text>
+<text x="541" y="980" fill="#4A36A3" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700">Запрос · Конспекты</text>
+<text x="541" y="1007" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Подробнее →</text>
+<rect x="932" y="814" width="388" height="214" rx="14" fill="#FFFFFF" stroke="#D8DBD1"/>
+<rect x="947" y="828" width="32" height="32" rx="6" fill="#D9FF68" stroke="none"/>
+<text x="956" y="851" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">⌘</text>
+<text x="947" y="885" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">Шаблон для курсового проекта</text>
+<text x="947" y="907" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400">Веб-разработка</text>
+<text x="947" y="928" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Структура отчёта и чек-лист перед защитой.</text>
+<text x="947" y="945" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Подойдёт как основа для своего проекта.</text>
+<text x="947" y="980" fill="#4A36A3" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700">Предложение · Материалы</text>
+<text x="947" y="1007" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Подробнее →</text>
+<rect x="120" y="1045" width="388" height="214" rx="14" fill="#FFFFFF" stroke="#D8DBD1"/>
+<rect x="135" y="1059" width="32" height="32" rx="6" fill="#E8E4FF" stroke="none"/>
+<text x="144" y="1082" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">◫</text>
+<text x="135" y="1116" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">Справочник по базам данных</text>
+<text x="135" y="1138" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400">Базы данных</text>
+<text x="135" y="1159" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Нужен учебник с задачами по SQL. Готов обменять</text>
+<text x="135" y="1176" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">на сборник по Python.</text>
+<text x="135" y="1211" fill="#4A36A3" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700">Запрос · Книги</text>
+<text x="135" y="1238" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Подробнее →</text>
+<text x="120" y="1322" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="40" font-weight="700">Как это работает</text>
+<text x="120" y="1372" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="700">Найди материал</text>
+<text x="120" y="1398" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="400">Открой карточку или создай запрос.</text>
+<text x="526" y="1372" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="700">Договорись об обмене</text>
+<text x="526" y="1398" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="400">Обсуди условия и место передачи.</text>
+<text x="932" y="1372" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="700">Делись тем, чем можно</text>
+<text x="932" y="1398" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="400">Предлагай свои конспекты и открытые ресурсы.</text>
+<rect x="0" y="1465" width="1440" height="85" rx="0" fill="#14182B" stroke="none"/>
+<text x="120" y="1517" fill="#D9FF68" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="700">IT.МОСКВА</text>
+<text x="898" y="1516" fill="#FFFFFF" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Стол заказов · учебный проект</text>
 </svg>

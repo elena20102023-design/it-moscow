@@ -1,62 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1070"><rect width="100%" height="100%" fill="#0D1020"/>
-<text x="48" y="53" fill="#C9FF51" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">ИССЛЕДОВАНИЕ АУДИТОРИИ</text>
-<text x="48" y="124" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="700">Путь абитуриента IT.МОСКВА</text>
-<rect x="48" y="163" width="1604" height="120" rx="15" fill="#171B30" stroke="#303652"/>
-<text x="70" y="203" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700">Артём, 15 лет · 9 класс</text>
-<text x="70" y="241" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="400">Цель: выбрать IT-специальность и понять, что нужно для подачи. Напряжение: сложные названия программ и неясные сроки.</text>
-<text x="48" y="327" fill="#C9FF51" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Гипотеза для проверки с выпускниками 9 класса и их родителями</text>
-<text x="240" y="389" fill="#C9FF51" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">Знакомство</text>
-<text x="522" y="389" fill="#C9FF51" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">Выбор</text>
-<text x="804" y="389" fill="#C9FF51" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">Проверка</text>
-<text x="1086" y="389" fill="#C9FF51" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">Подача</text>
-<text x="1368" y="389" fill="#C9FF51" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">Уточнение</text>
-<rect x="48" y="412" width="1604" height="93" rx="8" fill="#171B30" stroke="none"/>
-<text x="68" y="445" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Действие</text>
-<text x="240" y="444" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Ищет колледж после 9 класса</text>
-<text x="522" y="444" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Сравнивает, что изучают</text>
-<text x="804" y="444" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Уточняет порядок и сроки</text>
-<text x="1086" y="444" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Переходит к инструкциям</text>
-<text x="1368" y="444" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Связывается с приёмной</text>
-<rect x="48" y="510" width="1604" height="93" rx="8" fill="#12162A" stroke="none"/>
-<text x="68" y="543" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Точка контакта</text>
-<text x="240" y="542" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Поиск → главная сайта</text>
-<text x="522" y="542" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Каталог и карточки</text>
-<text x="804" y="542" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Раздел поступления, FAQ</text>
-<text x="1086" y="542" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Раздел для абитуриентов</text>
-<text x="1368" y="542" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Телефон и почта</text>
-<rect x="48" y="608" width="1604" height="93" rx="8" fill="#171B30" stroke="none"/>
-<text x="68" y="641" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Эмоция</text>
-<text x="240" y="640" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Интерес</text>
-<text x="522" y="640" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Сомнение</text>
-<text x="804" y="640" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Тревога</text>
-<text x="1086" y="640" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Уверенность</text>
-<text x="1368" y="640" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Облегчение</text>
-<rect x="48" y="706" width="1604" height="93" rx="8" fill="#12162A" stroke="none"/>
-<text x="68" y="739" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Барьер</text>
-<text x="240" y="738" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Не сразу понятен профиль</text>
-<text x="522" y="738" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Названия специальностей</text>
-<text x="522" y="758" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">сложно сравнить</text>
-<text x="804" y="738" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Неясно, что делать первым</text>
-<text x="1086" y="738" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Боится выбрать не тот канал</text>
-<text x="1368" y="738" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Контакты трудно найти</text>
-<rect x="48" y="804" width="1604" height="93" rx="8" fill="#171B30" stroke="none"/>
-<text x="68" y="837" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Решение</text>
-<text x="240" y="836" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">В первом экране указать</text>
-<text x="240" y="856" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">профиль и переход к</text>
-<text x="240" y="876" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">программам</text>
-<text x="522" y="836" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Добавить фильтры и краткие</text>
-<text x="522" y="856" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">описания</text>
-<text x="804" y="836" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Дать пошаговый план и</text>
-<text x="804" y="856" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">официальные ссылки</text>
-<text x="1086" y="836" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Указать официальный ресурс</text>
-<text x="1086" y="856" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">рядом с шагом</text>
-<text x="1368" y="836" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Повторить контакты в</text>
-<text x="1368" y="856" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">финальном блоке</text>
-<rect x="48" y="902" width="1604" height="93" rx="8" fill="#12162A" stroke="none"/>
-<text x="68" y="935" fill="#F6F8FF" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Метрика</text>
-<text x="240" y="934" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Переходы к каталогу</text>
-<text x="522" y="934" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Использование фильтра</text>
-<text x="804" y="934" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Переходы к FAQ</text>
-<text x="1086" y="934" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Переходы на официальный сайт</text>
-<text x="1368" y="934" fill="#B6BBD2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Клики по телефону и почте</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1660" height="790" viewBox="0 0 1660 790">
+<rect x="0" y="0" width="1660" height="790" rx="0" fill="#F6F6EF" stroke="none"/>
+<text x="45" y="54" fill="#4A36A3" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">ИССЛЕДОВАНИЕ АУДИТОРИИ</text>
+<text x="45" y="118" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="50" font-weight="700">Путь студента IT.МОСКВА</text>
+<rect x="45" y="156" width="1570" height="99" rx="14" fill="#E8E4FF" stroke="none"/>
+<text x="64" y="188" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700">Маша, 17 лет · второй курс</text>
+<text x="64" y="220" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="400">Ищет конспект по сетям с телефона между парами. Если поиск не помогает, оставляет запрос. Гипотеза для проверки.</text>
+<rect x="45" y="292" width="1570" height="68" rx="7" fill="#14182B" stroke="none"/>
+<text x="65" y="319" fill="#FFFFFF" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Этап</text>
+<text x="210" y="319" fill="#FFFFFF" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Действие</text>
+<text x="445" y="319" fill="#FFFFFF" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Точка контакта</text>
+<text x="660" y="319" fill="#FFFFFF" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Барьер</text>
+<text x="903" y="319" fill="#FFFFFF" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Решение</text>
+<text x="1151" y="319" fill="#FFFFFF" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Метрика</text>
+<rect x="45" y="366" width="1570" height="68" rx="7" fill="#FFFFFF" stroke="none"/>
+<text x="65" y="393" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Поиск</text>
+<text x="210" y="393" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Вводит название или</text>
+<text x="210" y="411" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">предмет</text>
+<text x="445" y="393" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Строка поиска</text>
+<text x="660" y="393" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Слишком много записей</text>
+<text x="903" y="393" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Поиск по названию и</text>
+<text x="903" y="411" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">предмету</text>
+<text x="1151" y="393" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Время до результата</text>
+<rect x="45" y="440" width="1570" height="68" rx="7" fill="#FFFFFF" stroke="none"/>
+<text x="65" y="467" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Выбор</text>
+<text x="210" y="467" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Фильтрует объявления</text>
+<text x="445" y="467" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Фильтры и карточки</text>
+<text x="660" y="467" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Запросы смешаны с</text>
+<text x="660" y="485" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">предложениями</text>
+<text x="903" y="467" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Вкладки типов и метки</text>
+<text x="1151" y="467" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Доля открытых карточек</text>
+<rect x="45" y="514" width="1570" height="68" rx="7" fill="#FFFFFF" stroke="none"/>
+<text x="65" y="541" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Публикация</text>
+<text x="210" y="541" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Оставляет запрос или</text>
+<text x="210" y="559" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">предложение</text>
+<text x="445" y="541" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Форма</text>
+<text x="660" y="541" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Неясно, что написать</text>
+<text x="903" y="541" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Короткие поля и примеры</text>
+<text x="1151" y="541" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Доля завершённых публикаций</text>
+<rect x="45" y="588" width="1570" height="68" rx="7" fill="#FFFFFF" stroke="none"/>
+<text x="65" y="615" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Отклик</text>
+<text x="210" y="615" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Отмечает интерес к</text>
+<text x="210" y="633" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">материалу</text>
+<text x="445" y="615" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Карточка</text>
+<text x="660" y="615" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Неясно, сохранился ли</text>
+<text x="660" y="633" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">отклик</text>
+<text x="903" y="615" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Подтверждение на экране</text>
+<text x="1151" y="615" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Доля карточек с откликом</text>
+<rect x="45" y="662" width="1570" height="68" rx="7" fill="#FFFFFF" stroke="none"/>
+<text x="65" y="689" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Завершение</text>
+<text x="210" y="689" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Закрывает свою запись</text>
+<text x="210" y="707" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">после обмена</text>
+<text x="445" y="689" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Действие закрытия</text>
+<text x="660" y="689" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Просроченные записи мешают</text>
+<text x="660" y="707" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">поиску</text>
+<text x="903" y="689" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Скрывать закрытые</text>
+<text x="903" y="707" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">объявления</text>
+<text x="1151" y="689" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Доля закрытых объявлений</text>
 </svg>

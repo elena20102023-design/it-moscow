@@ -141,18 +141,22 @@ render();
 // Shared validation: trim before checking, inline errors and focus on first invalid field.
 const rules = {
   'publish-form': {type: {options: ['request','offer']}, category: {options: Object.keys(icons)}, title: {min: 1,max: 80}, course: {min: 1,max: 55}, description: {min: 1,max: 320}},
-  'feedback-form': {name: {min: 2,max: 50}, message: {min: 10,max: 500}}
+  'feedback-form': {name: {min: 2,max: 50}, message: {min: 10,max: 500}},
+  'registration-form': {studentName: {min: 2,max: 50}, email: {max: 254,email: true}, group: {min: 2,max: 20}, password: {min: 8,max: 128,password: true,raw: true}, confirmPassword: {max: 128,raw: true,confirm: true}}
 };
 function validationMessage(value, rule) {
-  const text = value.trim();
+  const text = rule.raw ? value : value.trim();
   if (!text) return 'Заполни это поле.';
   if (rule.options && !rule.options.includes(text)) return 'Выбери значение из списка.';
   if (rule.min && text.length < rule.min) return 'Введи не менее ' + rule.min + ' символов.';
   if (rule.max && text.length > rule.max) return 'Не более ' + rule.max + ' символов.';
+  if (rule.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(text)) return 'Введи email в формате student@example.com.';
+  if (rule.password && (!/\p{L}/u.test(text) || !/[0-9]/.test(text))) return 'Добавь хотя бы одну букву и одну цифру.';
   return '';
 }
 function validateField(field, rule) {
-  const message = validationMessage(field.value, rule);
+  let message = validationMessage(field.value, rule);
+  if (!message && rule.confirm && field.value !== field.form.elements.namedItem('password').value) message = 'Пароли не совпадают.';
   const error = byId(field.getAttribute('aria-describedby'));
   error.textContent = message;
   field.setAttribute('aria-invalid', String(Boolean(message)));
@@ -209,3 +213,70 @@ feedback.addEventListener('submit', event => {
     note.textContent = 'Не удалось сохранить сообщение. Проверь настройки хранилища браузера и попробуй снова. Текст остался в форме.';
   }
 });
+
+// Demo registration saves a profile only: passwords never enter browser storage.
+const registration = byId('registration');
+const registrationForm = byId('registration-form');
+const profileKey = 'it-moscow.profile.v1';
+let demoProfile = null;
+try {
+  const saved = JSON.parse(localStorage.getItem(profileKey));
+  if (saved && typeof saved.name === 'string' && typeof saved.email === 'string' && typeof saved.group === 'string') demoProfile = saved;
+} catch { /* An unavailable store must not prevent using the rest of the page. */ }
+function showDemoProfile(justCreated = false) {
+  registrationForm.hidden = true;
+  byId('registration-success').hidden = false;
+  byId('registration-title').textContent = 'Мой демопрофиль';
+  byId('registration-status').textContent = justCreated ? 'Регистрация завершена. Демопрофиль сохранён на этом устройстве.' : 'Демопрофиль сохранён на этом устройстве.';
+  byId('profile-name').textContent = demoProfile.name;
+  byId('profile-email').textContent = demoProfile.email;
+  byId('profile-group').textContent = demoProfile.group;
+  byId('open-registration').textContent = 'Мой профиль';
+}
+function showRegistrationForm() {
+  registrationForm.reset();
+  clearValidation(registrationForm);
+  registrationForm.hidden = false;
+  byId('registration-success').hidden = true;
+  byId('registration-title').textContent = 'Регистрация';
+  document.querySelector('[data-registration-note]').textContent = '';
+}
+byId('open-registration').addEventListener('click', () => {
+  if (demoProfile) showDemoProfile(); else showRegistrationForm();
+  registration.showModal();
+  registration.scrollTop = 0;
+});
+byId('another-profile').addEventListener('click', () => {
+  showRegistrationForm();
+  registrationForm.elements.namedItem('studentName').focus();
+});
+const passwordField = registrationForm.elements.namedItem('password');
+passwordField.addEventListener('input', () => {
+  const confirm = registrationForm.elements.namedItem('confirmPassword');
+  if (confirm.hasAttribute('aria-invalid')) validateField(confirm,rules['registration-form'].confirmPassword);
+});
+registration.addEventListener('close', () => {
+  passwordField.value = '';
+  registrationForm.elements.namedItem('confirmPassword').value = '';
+});
+registrationForm.addEventListener('submit', event => {
+  event.preventDefault();
+  const note = document.querySelector('[data-registration-note]');
+  note.textContent = '';
+  if (!validateForm(registrationForm)) return;
+  const values = new FormData(registrationForm);
+  const profile = {name: values.get('studentName').trim(), email: values.get('email').trim().toLowerCase(), group: values.get('group').trim(), createdAt: new Date().toISOString()};
+  try {
+    localStorage.setItem(profileKey,JSON.stringify(profile));
+    demoProfile = profile;
+    registrationForm.reset();
+    clearValidation(registrationForm);
+    showDemoProfile(true);
+    byId('registration-status').setAttribute('tabindex','-1');
+    byId('registration-status').focus({preventScroll: true});
+    registration.scrollTop = 0;
+  } catch {
+    note.textContent = 'Не удалось сохранить демопрофиль. Проверь настройки хранилища браузера и попробуй снова.';
+  }
+});
+if (demoProfile) byId('open-registration').textContent = 'Мой профиль';

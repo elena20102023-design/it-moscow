@@ -8,7 +8,7 @@
 </head>
 <body>
 <a class="skip" href="#main">К содержанию</a>
-<header><div class="wrap top"><a class="brand" href="#main"><span>IT.</span>МОСКВА</a><nav aria-label="Разделы"><a href="#catalog">Каталог</a><a href="#rules">Правила обмена</a></nav><button class="button primary small" type="button" data-publish>＋ Объявление</button></div></header>
+<header><div class="wrap top"><a class="brand" href="#main"><span>IT.</span>МОСКВА</a><nav aria-label="Разделы"><a href="#catalog">Каталог</a><a href="#rules">Правила обмена</a><a href="#feedback">Обратная связь</a></nav><button class="button primary small" type="button" data-publish>＋ Объявление</button></div></header>
 <main id="main">
 <section class="hero wrap" aria-labelledby="hero-title">
 <div><p class="eyebrow">СТУДЕНЧЕСКИЙ ОБМЕН</p><h1 id="hero-title">Стол заказов<br><em>проектов.</em></h1><p class="lede">Ищи учебники, делись конспектами и обменивайся материалами для проектов внутри колледжа IT.МОСКВА.</p><div class="actions"><a class="button primary" href="#catalog">Найти материалы ↓</a><button class="button" data-publish type="button">Оставить запрос</button></div></div>
@@ -23,9 +23,17 @@
 <noscript>Для работы каталога и объявлений включи JavaScript.</noscript>
 </section>
 <section class="rules wrap" id="rules"><p class="eyebrow">ПРАВИЛА ОБМЕНА</p><h2>Как это работает</h2><ol><li><strong>Найди материал</strong><p>Открой карточку или создай запрос с названием предмета.</p></li><li><strong>Договорись об обмене</strong><p>В рабочей версии участники обсуждают условия и место передачи. В демо отклик сохраняется локально.</p></li><li><strong>Делись тем, чем можно</strong><p>Предлагай свои конспекты, книги и открытые ресурсы. Не размещай готовые работы за других и чужие материалы без разрешения.</p></li></ol></section>
+<section class="feedback wrap" id="feedback" aria-labelledby="feedback-title">
+<div><p class="eyebrow">ОБРАТНАЯ СВЯЗЬ</p><h2 id="feedback-title">Задать вопрос</h2><p class="lede">Спроси об обмене книгами, конспектами и материалами для проектов.</p><p class="notice">Учебное демо: сообщение сохраняется только на этом устройстве и не отправляется администрации.</p></div>
+<form id="feedback-form" novalidate>
+
+<label>Имя<input name="name" required minlength="2" maxlength="50" autocomplete="given-name" placeholder="Как к тебе обращаться"></label>
+<label>Сообщение<textarea name="message" rows="4" required minlength="10" maxlength="500" placeholder="Напиши от 10 до 500 символов"></textarea></label>
+<p class="notice" data-feedback-note role="status"></p><button class="button primary" type="submit">Сохранить сообщение</button>
+</form></section>
 </main>
 <footer><div class="wrap top"><span class="brand"><span>IT.</span>МОСКВА</span><span>Стол заказов · учебный проект</span><a href="#main">Наверх ↑</a></div></footer>
-<dialog id="editor"><form id="publish-form">
+<dialog id="editor"><form id="publish-form" novalidate>
 <div class="dialog-top"><h2>Новое объявление</h2><button class="icon-btn" data-close type="button" aria-label="Закрыть">×</button></div>
 <label>Тип объявления<select name="type" required><option value="request">Ищу материал</option><option value="offer">Предлагаю обмен</option></select></label>
 <label>Категория<select name="category" required><option>Книги</option><option>Конспекты</option><option>Материалы</option></select></label>

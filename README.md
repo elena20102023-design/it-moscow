@@ -9,3 +9,7 @@
 - [Макеты в Figma](https://www.figma.com/design/ZOkgW3BEZuXR6REsNSwKcm?node-id=50-2) и [SVG](it-moscow/design/)
 
 Это учебное демо. Публикации и отклики сохраняются в браузере на устройстве.
+
+## Валидация
+
+Добавлена форма «Задать вопрос». Правила полей и сценарии проверки — в [документации](it-moscow/docs/validation.md). Состояния формы — [`it-moscow/design/validation.svg`](it-moscow/design/validation.svg). Вопросы в демо сохраняются только на устройстве.

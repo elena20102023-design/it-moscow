@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1660" height="1120" viewBox="0 0 1660 1120">
+<rect x="0" y="0" width="1660" height="1120" rx="0" fill="#F6F6EF" stroke="none"/>
+<text x="45" y="55" fill="#4A36A3" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">IT.МОСКВА / РЕГИСТРАЦИЯ</text>
+<text x="45" y="115" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="44" font-weight="700">Регистрация с валидацией</text>
+<rect x="45" y="155" width="500" height="828" rx="16" fill="#FFFFFF" stroke="#D8DBD1"/>
+<text x="69" y="198" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700">По умолчанию</text>
+<text x="69" y="232" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Учебная регистрация. Профиль хранится на устройстве;</text>
+<text x="69" y="252" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">пароль не сохраняется.</text>
+<text x="69" y="300" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Имя</text>
+<rect x="69" y="313" width="452" height="43" rx="8" fill="#FFFFFF" stroke="#9EA498"/>
+<text x="81" y="340" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Как тебя зовут</text>
+<text x="69" y="416" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Email</text>
+<rect x="69" y="429" width="452" height="43" rx="8" fill="#FFFFFF" stroke="#9EA498"/>
+<text x="81" y="456" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">student@example.com</text>
+<text x="69" y="532" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Учебная группа</text>
+<rect x="69" y="545" width="452" height="43" rx="8" fill="#FFFFFF" stroke="#9EA498"/>
+<text x="81" y="572" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Например, ИСП-21</text>
+<text x="69" y="648" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Пароль</text>
+<rect x="69" y="661" width="452" height="43" rx="8" fill="#FFFFFF" stroke="#9EA498"/>
+<text x="81" y="688" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">От 8 символов, буква и цифра</text>
+<text x="69" y="764" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Повтори пароль</text>
+<rect x="69" y="777" width="452" height="43" rx="8" fill="#FFFFFF" stroke="#9EA498"/>
+<text x="81" y="804" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Ещё раз тот же пароль</text>
+<rect x="69" y="902" width="250" height="40" rx="8" fill="#D9FF68" stroke="#14182B"/>
+<text x="81" y="927" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Зарегистрироваться</text>
+<rect x="580" y="155" width="500" height="828" rx="16" fill="#FFFFFF" stroke="#D8DBD1"/>
+<text x="604" y="198" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700">Ошибки ввода</text>
+<text x="604" y="232" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Учебная регистрация. Профиль хранится на устройстве;</text>
+<text x="604" y="252" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">пароль не сохраняется.</text>
+<text x="604" y="300" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Имя</text>
+<rect x="604" y="313" width="452" height="43" rx="8" fill="#FFFFFF" stroke="#9EA498"/>
+<text x="616" y="340" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">А</text>
+<rect x="604" y="313" width="452" height="43" rx="8" fill="none" stroke="#A12432"/>
+<text x="604" y="380" fill="#A12432" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400">Введи не менее 2 символов.</text>
+<text x="604" y="416" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Email</text>
+<rect x="604" y="429" width="452" height="43" rx="8" fill="#FFFFFF" stroke="#9EA498"/>
+<text x="616" y="456" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">student@</text>
+<rect x="604" y="429" width="452" height="43" rx="8" fill="none" stroke="#A12432"/>
+<text x="604" y="496" fill="#A12432" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400">Введи email в формате student@example.com.</text>
+<text x="604" y="532" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Учебная группа</text>
+<rect x="604" y="545" width="452" height="43" rx="8" fill="#FFFFFF" stroke="#9EA498"/>
+<text x="616" y="572" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400"></text>
+<rect x="604" y="545" width="452" height="43" rx="8" fill="none" stroke="#A12432"/>
+<text x="604" y="612" fill="#A12432" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400">Заполни это поле.</text>
+<text x="604" y="648" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Пароль</text>
+<rect x="604" y="661" width="452" height="43" rx="8" fill="#FFFFFF" stroke="#9EA498"/>
+<text x="616" y="688" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">••••••••</text>
+<rect x="604" y="661" width="452" height="43" rx="8" fill="none" stroke="#A12432"/>
+<text x="604" y="728" fill="#A12432" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400">Добавь хотя бы одну букву и цифру.</text>
+<text x="604" y="764" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Повтори пароль</text>
+<rect x="604" y="777" width="452" height="43" rx="8" fill="#FFFFFF" stroke="#9EA498"/>
+<text x="616" y="804" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">••••••••</text>
+<rect x="604" y="777" width="452" height="43" rx="8" fill="none" stroke="#A12432"/>
+<text x="604" y="844" fill="#A12432" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400">Пароли не совпадают.</text>
+<rect x="604" y="902" width="250" height="40" rx="8" fill="#D9FF68" stroke="#14182B"/>
+<text x="616" y="927" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Зарегистрироваться</text>
+<rect x="1115" y="155" width="500" height="828" rx="16" fill="#FFFFFF" stroke="#D8DBD1"/>
+<text x="1139" y="198" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700">Регистрация завершена</text>
+<rect x="1139" y="229" width="452" height="76" rx="10" fill="#ECFAC9" stroke="none"/>
+<text x="1153" y="258" fill="#27613C" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="400">Демопрофиль сохранён на этом устройстве.</text>
+<text x="1139" y="350" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Имя</text>
+<text x="1139" y="381" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="700">Маша</text>
+<text x="1139" y="438" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Email</text>
+<text x="1139" y="469" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="700">student@example.com</text>
+<text x="1139" y="526" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Группа</text>
+<text x="1139" y="557" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="700">ИСП-21</text>
+<text x="1139" y="663" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="400">Пароль не сохраняется. Вход с других</text>
+<text x="1139" y="685" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="400">устройств пока не подключён.</text>
+<rect x="1139" y="760" width="180" height="40" rx="8" fill="#D9FF68" stroke="#14182B"/>
+<text x="1151" y="785" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">К материалам</text>
+<text x="1139" y="849" fill="#4A36A3" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700">Другой демопрофиль</text>
+<text x="45" y="1030" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="400">Имя 2–50 · группа 2–20 · email до 254 · пароль 8–128 символов, минимум одна буква и цифра. Повтор пароля должен совпадать. Ошибки</text>
+<text x="45" y="1055" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="400">показаны под полями, фокус — у первой ошибки.</text>
+</svg>

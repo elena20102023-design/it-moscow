@@ -2,6 +2,8 @@
 <rect x="0" y="0" width="1440" height="2070" rx="0" fill="#F6F6EF" stroke="none"/>
 <text x="120" y="48" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700">IT.МОСКВА</text>
 <text x="562" y="47" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="400">Каталог      Правила обмена</text>
+<rect x="1010" y="19" width="145" height="40" rx="8" fill="#FFFFFF" stroke="#14182B"/>
+<text x="1022" y="44" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Регистрация</text>
 <rect x="1170" y="19" width="150" height="40" rx="8" fill="#D9FF68" stroke="#14182B"/>
 <text x="1182" y="44" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">＋ Объявление</text>
 <rect x="0" y="76" width="1440" height="1" rx="0" fill="#D8DBD1" stroke="none"/>

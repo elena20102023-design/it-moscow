@@ -6,3 +6,7 @@
 - [Техническое задание](docs/tech_treb.pdf)
 - [Портрет аудитории](analysis/audience.md) и [карта пути](analysis/cjm.md)
 - [Макеты в Figma](https://www.figma.com/design/ZOkgW3BEZuXR6REsNSwKcm?node-id=50-2) и [SVG](design/)
+
+## Валидация
+
+Добавлена форма «Задать вопрос». Правила полей и сценарии проверки — в [документации](docs/validation.md). Состояния формы — `design/validation.svg`. Вопросы в демо сохраняются только на устройстве.

@@ -72,6 +72,7 @@ function makeCard(item) {
 }
 function openEditor() {
   form.reset();
+  clearValidation(form);
   document.querySelector('[data-form-note]').textContent = '';
   editor.showModal();
 }
@@ -103,6 +104,7 @@ document.querySelectorAll('[data-publish]').forEach(button => button.addEventLis
 document.querySelectorAll('[data-close]').forEach(button => button.addEventListener('click', () => button.closest('dialog').close()));
 form.addEventListener('submit', event => {
   event.preventDefault();
+  if (!validateForm(form)) return;
   const values = new FormData(form);
   const title = values.get('title').trim();
   const course = values.get('course').trim();
@@ -135,3 +137,75 @@ byId('close-listing').addEventListener('click', () => {
   if (!stored) byId('result').textContent += '. Изменение доступно до закрытия страницы.';
 });
 render();
+
+// Shared validation: trim before checking, inline errors and focus on first invalid field.
+const rules = {
+  'publish-form': {type: {options: ['request','offer']}, category: {options: Object.keys(icons)}, title: {min: 1,max: 80}, course: {min: 1,max: 55}, description: {min: 1,max: 320}},
+  'feedback-form': {name: {min: 2,max: 50}, message: {min: 10,max: 500}}
+};
+function validationMessage(value, rule) {
+  const text = value.trim();
+  if (!text) return 'Заполни это поле.';
+  if (rule.options && !rule.options.includes(text)) return 'Выбери значение из списка.';
+  if (rule.min && text.length < rule.min) return 'Введи не менее ' + rule.min + ' символов.';
+  if (rule.max && text.length > rule.max) return 'Не более ' + rule.max + ' символов.';
+  return '';
+}
+function validateField(field, rule) {
+  const message = validationMessage(field.value, rule);
+  const error = byId(field.getAttribute('aria-describedby'));
+  error.textContent = message;
+  field.setAttribute('aria-invalid', String(Boolean(message)));
+  return !message;
+}
+function validateForm(target) {
+  let first;
+  for (const [name, rule] of Object.entries(rules[target.id])) {
+    const field = target.elements.namedItem(name);
+    if (!validateField(field, rule) && !first) first = field;
+  }
+  if (first) first.focus();
+  return !first;
+}
+function clearValidation(target) {
+  target.querySelectorAll('[aria-invalid]').forEach(field => field.removeAttribute('aria-invalid'));
+  target.querySelectorAll('.field-error').forEach(error => { error.textContent = ''; });
+}
+for (const [id, fields] of Object.entries(rules)) {
+  const target = byId(id);
+  for (const [name, rule] of Object.entries(fields)) {
+    const field = target.elements.namedItem(name);
+    const error = element('span', '', 'field-error');
+    error.id = id + '-' + name + '-error';
+    error.setAttribute('aria-live','polite');
+    field.setAttribute('aria-describedby',error.id);
+    field.after(error);
+    field.addEventListener('blur', () => validateField(field,rule));
+    field.addEventListener('input', () => {
+      if (field.hasAttribute('aria-invalid')) validateField(field,rule);
+    });
+    field.addEventListener('change', () => validateField(field,rule));
+  }
+}
+const feedback = byId('feedback-form');
+feedback.addEventListener('submit', event => {
+  event.preventDefault();
+  const note = document.querySelector('[data-feedback-note]');
+  note.textContent = '';
+  if (!validateForm(feedback)) return;
+  const values = new FormData(feedback);
+  const entry = {kind: 'question',name: values.get('name').trim(),message: values.get('message').trim(),createdAt: new Date().toISOString()};
+  try {
+    const old = JSON.parse(localStorage.getItem('it-moscow.feedback.v1') || '[]');
+    const entries = Array.isArray(old) ? old : [];
+    entries.push(entry);
+    localStorage.setItem('it-moscow.feedback.v1',JSON.stringify(entries));
+    feedback.reset();
+    clearValidation(feedback);
+    note.textContent = 'Сообщение сохранено на этом устройстве. Спасибо!';
+    note.classList.add('success');
+  } catch {
+    note.classList.remove('success');
+    note.textContent = 'Не удалось сохранить сообщение. Проверь настройки хранилища браузера и попробуй снова. Текст остался в форме.';
+  }
+});

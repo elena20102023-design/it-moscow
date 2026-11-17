@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="390" height="1810" viewBox="0 0 390 1810">
-<rect x="0" y="0" width="390" height="1810" rx="0" fill="#F6F6EF" stroke="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="2350" viewBox="0 0 390 2350">
+<rect x="0" y="0" width="390" height="2350" rx="0" fill="#F6F6EF" stroke="none"/>
 <text x="18" y="40" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="700">IT.МОСКВА</text>
 <rect x="225" y="13" width="145" height="40" rx="8" fill="#D9FF68" stroke="#14182B"/>
 <text x="237" y="38" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">＋ Объявление</text>
@@ -71,5 +71,18 @@
 <text x="33" y="1658" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">обменять на сборник по Python.</text>
 <text x="33" y="1693" fill="#4A36A3" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700">Запрос · Книги</text>
 <text x="33" y="1720" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Подробнее →</text>
-<text x="18" y="1784" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">Стол заказов · IT.МОСКВА</text>
+<rect x="18" y="1780" width="354" height="470" rx="16" fill="#E8E4FF" stroke="none"/>
+<text x="42" y="1822" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="700">Задать вопрос</text>
+<text x="42" y="1853" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Вопрос об обмене учебными материалами</text>
+<text x="42" y="1898" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400">Все поля обязательны</text>
+<rect x="42" y="1931" width="306" height="43" rx="8" fill="#FFFFFF" stroke="#9EA498"/>
+<text x="54" y="1958" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Имя · от 2 до 50 символов</text>
+<rect x="42" y="1988" width="306" height="95" rx="8" fill="#FFFFFF" stroke="#9EA498"/>
+<text x="54" y="2015" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400">Сообщение · 10–500 символов</text>
+<text x="42" y="2116" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400">Учебное демо: сохранение на</text>
+<text x="42" y="2134" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400">устройстве, без отправки</text>
+<text x="42" y="2152" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400">администрации.</text>
+<rect x="42" y="2182" width="220" height="40" rx="8" fill="#D9FF68" stroke="#14182B"/>
+<text x="54" y="2207" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Сохранить сообщение</text>
+<text x="18" y="2310" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">Стол заказов · IT.МОСКВА</text>
 </svg>

@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1550" viewBox="0 0 1440 1550">
-<rect x="0" y="0" width="1440" height="1550" rx="0" fill="#F6F6EF" stroke="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="2070" viewBox="0 0 1440 2070">
+<rect x="0" y="0" width="1440" height="2070" rx="0" fill="#F6F6EF" stroke="none"/>
 <text x="120" y="48" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700">IT.МОСКВА</text>
 <text x="562" y="47" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="400">Каталог      Правила обмена</text>
 <rect x="1170" y="19" width="150" height="40" rx="8" fill="#D9FF68" stroke="#14182B"/>
@@ -83,7 +83,18 @@
 <text x="526" y="1398" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="400">Обсуди условия и место передачи.</text>
 <text x="932" y="1372" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="700">Делись тем, чем можно</text>
 <text x="932" y="1398" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="400">Предлагай свои конспекты и открытые ресурсы.</text>
-<rect x="0" y="1465" width="1440" height="85" rx="0" fill="#14182B" stroke="none"/>
-<text x="120" y="1517" fill="#D9FF68" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="700">IT.МОСКВА</text>
-<text x="898" y="1516" fill="#FFFFFF" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Стол заказов · учебный проект</text>
+<rect x="120" y="1460" width="1200" height="470" rx="16" fill="#E8E4FF" stroke="none"/>
+<text x="144" y="1502" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="700">Задать вопрос</text>
+<text x="144" y="1533" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Вопрос об обмене учебными материалами</text>
+<text x="144" y="1578" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400">Все поля обязательны</text>
+<rect x="144" y="1611" width="1152" height="43" rx="8" fill="#FFFFFF" stroke="#9EA498"/>
+<text x="156" y="1638" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Имя · от 2 до 50 символов</text>
+<rect x="144" y="1668" width="1152" height="95" rx="8" fill="#FFFFFF" stroke="#9EA498"/>
+<text x="156" y="1695" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400">Сообщение · 10–500 символов</text>
+<text x="144" y="1796" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400">Учебное демо: сохранение на устройстве, без отправки администрации.</text>
+<rect x="144" y="1862" width="220" height="40" rx="8" fill="#D9FF68" stroke="#14182B"/>
+<text x="156" y="1887" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Сохранить сообщение</text>
+<rect x="0" y="1985" width="1440" height="85" rx="0" fill="#14182B" stroke="none"/>
+<text x="120" y="2037" fill="#D9FF68" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="700">IT.МОСКВА</text>
+<text x="898" y="2036" fill="#FFFFFF" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Стол заказов · учебный проект</text>
 </svg>

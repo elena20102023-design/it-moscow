@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1660" height="1030" viewBox="0 0 1660 1030">
+<rect x="0" y="0" width="1660" height="1030" rx="0" fill="#F6F6EF" stroke="none"/>
+<text x="45" y="55" fill="#4A36A3" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">IT.МОСКВА / ВАЛИДАЦИЯ ФОРМ</text>
+<text x="45" y="113" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="43" font-weight="700">Обратная связь: состояния</text>
+<rect x="45" y="155" width="500" height="650" rx="16" fill="#FFFFFF" stroke="#D8DBD1"/>
+<text x="69" y="199" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700">По умолчанию</text>
+<text x="69" y="265" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700">Задать вопрос</text>
+<text x="69" y="329" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Имя</text>
+<rect x="69" y="340" width="452" height="43" rx="8" fill="#FFFFFF" stroke="#9EA498"/>
+<text x="81" y="367" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Как к тебе обращаться</text>
+<text x="69" y="445" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Сообщение</text>
+<rect x="69" y="458" width="452" height="100" rx="8" fill="#FFFFFF" stroke="#9EA498"/>
+<text x="81" y="487" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Напиши от 10 до 500 символов</text>
+<rect x="69" y="625" width="220" height="40" rx="8" fill="#D9FF68" stroke="#14182B"/>
+<text x="81" y="650" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Сохранить сообщение</text>
+<text x="69" y="708" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Учебное демо: сообщение не отправляется</text>
+<text x="69" y="729" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">администрации.</text>
+<rect x="580" y="155" width="500" height="650" rx="16" fill="#FFFFFF" stroke="#D8DBD1"/>
+<text x="604" y="199" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700">Ошибки ввода</text>
+<text x="604" y="265" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700">Задать вопрос</text>
+<text x="604" y="329" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Имя</text>
+<rect x="604" y="340" width="452" height="43" rx="8" fill="#FFFFFF" stroke="#9EA498"/>
+<text x="616" y="367" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">А</text>
+<rect x="604" y="340" width="452" height="43" rx="8" fill="none" stroke="#A12432"/>
+<text x="604" y="405" fill="#A12432" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Введи не менее 2 символов.</text>
+<text x="604" y="445" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Сообщение</text>
+<rect x="604" y="458" width="452" height="100" rx="8" fill="#FFFFFF" stroke="#A12432"/>
+<text x="616" y="487" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Напиши от 10 до 500 символов</text>
+<text x="604" y="584" fill="#A12432" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Заполни это поле.</text>
+<rect x="604" y="625" width="220" height="40" rx="8" fill="#D9FF68" stroke="#14182B"/>
+<text x="616" y="650" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Сохранить сообщение</text>
+<text x="604" y="708" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Учебное демо: сообщение не отправляется</text>
+<text x="604" y="729" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">администрации.</text>
+<rect x="1115" y="155" width="500" height="650" rx="16" fill="#FFFFFF" stroke="#D8DBD1"/>
+<text x="1139" y="199" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700">Успешное сохранение</text>
+<text x="1139" y="265" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700">Задать вопрос</text>
+<text x="1139" y="329" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Имя</text>
+<rect x="1139" y="340" width="452" height="43" rx="8" fill="#FFFFFF" stroke="#9EA498"/>
+<text x="1151" y="367" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Маша</text>
+<text x="1139" y="445" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Сообщение</text>
+<rect x="1139" y="458" width="452" height="100" rx="8" fill="#FFFFFF" stroke="#9EA498"/>
+<text x="1151" y="487" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Как обменять книгу?</text>
+<rect x="1139" y="625" width="220" height="40" rx="8" fill="#D9FF68" stroke="#14182B"/>
+<text x="1151" y="650" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Сохранить сообщение</text>
+<text x="1139" y="708" fill="#27613C" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Сообщение сохранено на этом устройстве. Спасибо!</text>
+<text x="45" y="861" fill="#14182B" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700">Объявление: название 1–80 · предмет 1–55 · описание 1–320 символов.</text>
+<text x="45" y="908" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="400">Все поля обязательны. Пробелы по краям не учитываются. Ошибка показана под полем; при отправке фокус переходит к первой ошибке.</text>
+<text x="45" y="936" fill="#525B70" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="400">Данные сохраняются только после успешной проверки.</text>
+</svg>
